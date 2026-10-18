@@ -32,7 +32,7 @@ class CameraViewer(Node):
         # Movement settings: start slowly in simulation.
         self.forward_speed = 0.50
         self.curve_speed = 0.012
-        self.Kp = 0.0003
+        self.Kp = 0.003
         self.max_turn = 0.15
 
         # Black track becomes white in the binary mask
