@@ -86,6 +86,13 @@ def generate_launch_description():
         ],
         output='screen'
     )
+    camera_viewer = Node(
+    package='box_bot',
+    executable='camera_viewer',
+    name='camera_viewer',
+    output='screen'
+    )
+
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -96,5 +103,5 @@ def generate_launch_description():
         gazebo_gui,
         robot_state_publisher,
         spawn_robot,cmd_vel_bridge,
-    camera_bridge
+    camera_bridge,camera_viewer
     ])
