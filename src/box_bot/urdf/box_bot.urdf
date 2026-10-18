@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<robot name="box_bot">
+
+  <link name="base_link">
+
+    <visual>
+      <geometry>
+        <box size="1 1 0.5"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="1 1 0.5"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+
+      <inertia
+        ixx="0.104"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.104"
+        iyz="0.0"
+        izz="0.167"/>
+    </inertial>
+
+  </link>
+
+</robot>
