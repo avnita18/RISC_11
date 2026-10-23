@@ -35,7 +35,7 @@ class CameraViewer(Node):
         self.Kp = 0.003
         self.max_turn = 0.15
 
-        # Black track becomes white in the binary mask.
+        # Black track becomes white in the binary mask
         self.threshold_value = 100
 
         # Ignore small noise contours.

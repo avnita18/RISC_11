@@ -86,7 +86,6 @@ def generate_launch_description():
         ],
         output='screen'
     )
-    
     camera_viewer = Node(
     package='box_bot',
     executable='camera_viewer',
